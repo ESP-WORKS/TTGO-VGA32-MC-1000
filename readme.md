@@ -9,18 +9,7 @@ Emulador do computador brasileiro **CCE MC-1000** (1985) para a placa
 O objetivo é preservar a experiência e promover o estudo do hardware e do
 software brasileiro dos anos 1980. Projeto comunitário **não comercial**,
 independente da CCE e dos titulares dos componentes de hardware e software.
-
-> **Versão 0.7 — port experimental (projeto PlatformIO).** A rotina CAS segue
-> o protocolo em dois estágios da ROM (cabeçalho em `$C162`, dados em `$C188`).
-> Subpastas de CAS, arquivos `.BAS`, `bootl.rc`, botão mágico e fallback do pino
-> MISO do SD são recentes e **ainda precisam de testes na placa**. Não se anunciam
-> funcionalidades não verificadas como totalmente compatíveis.
-
-> **Licenciamento:** o código autoral/derivado de fontes MIT incluído aqui está
-> sob **MIT**, mas a biblioteca externa **FabGL 1.0.9 é GPLv3**, e a ROM do
-> MC-1000 não está licenciada para redistribuição neste repositório.
-> Portanto, **não declare o firmware completo como 100% MIT**. Leia
-> [Licenciamento e ROM](LICENSING_AND_ROM.md) antes de publicar binários.
+.
 
 ## 🚀 Funcionalidades
 
